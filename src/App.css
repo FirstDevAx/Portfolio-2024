@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-conexion-degradado_23-2150516350.jpg?w=740&t=st=1716776296~exp=1716776896~hmac=746fa14dd76b54d3185beee7e1b5ed318401dccd52ca9c1e988a67df3c32ee00');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    scroll-behavior: smooth;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header, main, footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+  }
+  
+  header img {
+    border-radius: 50%;
+    width: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  header img:hover {
+    transform: scale(1.1);
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  a {
+    color: #61dafb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #21a1f1;
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header, main, footer {
+      padding: 10px;
+      width: 95%;
+    }
+  
+    header img {
+      width: 100px;
+    }
+  }
+  
